@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+}
+
+/* Weather Container */
+.weather-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.search-container {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+#cityInput {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#cityInput:focus {
+    border-color: #8e44ad;
+}
+
+button {
+    padding: 10px 15px;
+    background: linear-gradient(45deg, #3498db, #8e44ad);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #8e44ad, #3498db);
+}
+
+.weather-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+#weatherIcon {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+/* Loading Spinner */
+.spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Background Slideshow */
+.slideshow-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: slideshow 15s infinite;
+}
+
+.slide:nth-child(1) {
+    background-image: url('images/sunny.jpg');
+    animation-delay: 0s;
+}
+
+.slide:nth-child(2) {
+    background-image: url('images/cloudy.jpg');
+    animation-delay: 5s;
+}
+
+.slide:nth-child(3) {
+    background-image: url('images/rainy.jpg');
+    animation-delay: 10s;
+}
+
+@keyframes slideshow {
+    0% { opacity: 1; }
+    33% { opacity: 0; }
+    66% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+
+

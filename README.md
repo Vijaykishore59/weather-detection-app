@@ -1,41 +1,34 @@
-# weather-detection-app
-Your Personal Weather Assistant
+# Enhanced Weather App
 
-The Weather App is a sleek, responsive web application designed to deliver real-time weather updates for cities worldwide. By integrating the OpenWeatherMap API, this app provides accurate and detailed weather information, along with an immersive user interface that dynamically adapts to weather conditions through animations and thematic backgrounds.
+The **Enhanced Weather App** is a modern, user-friendly web application that provides real-time weather information, hourly forecasts, and additional weather-related details. It allows users to search for weather by city name or use their current location. The app is designed with a clean and responsive interface, making it easy to use on all devices.
 
-#Key Features
-🌍 Global Weather Access
-Fetches accurate, real-time weather data for any city worldwide.
-🌈 Dynamic Backgrounds & Animations
-Visually stunning backgrounds and weather effects adapt based on conditions like clear skies, rain, snow, and clouds.
-📱 Responsive Design
-Fully optimized for desktops, tablets, and mobile devices.
-⚙️ Loading Indicator
-Smooth user experience with a spinner while fetching weather data.
-Technologies Used
-#Frontend
-HTML: For the structure of the app.
-CSS: To design a responsive and modern interface.
-JavaScript: Handles API integration and dynamic updates.
+---
 
-#API Integration
-OpenWeatherMap API: Fetches real-time weather data.
+## Features
 
-#Installation and Setup
-Prerequisites
-A modern web browser (e.g., Chrome, Firefox, Edge).
-An active API key from OpenWeatherMap.
-Steps to Set Up Locally
-#Replace the placeholder apiKey in app.js with your OpenWeatherMap API key:
-#javascript(app.js)
-const apiKey = 'your_api_key_here';#Replace u r apikey in app.js with your OpenWeathermap API key
-How It Works
-Enter a city name in the search bar.
-Click the Search button or press Enter.
+- **Current Weather**: Displays real-time weather information, including temperature, weather description, wind speed, pressure, and visibility.
+- **Hourly Forecast**: Provides a detailed hourly forecast for the next 24 hours.
+- **Search by City**: Users can search for weather information by entering a city name.
+- **Current Location**: Automatically detects the user's location and displays the weather for that area.
+- **Responsive Design**: The app is fully responsive and works seamlessly on desktops, tablets, and mobile devices.
+- **Dark/Light Theme**: Includes a theme switcher to toggle between dark and light modes.
+- **Weather Icons**: Uses weather icons from the [Weather Icons](https://erikflowers.github.io/weather-icons/) library for a visually appealing experience.
 
-View detailed weather data, including:
-Temperature
-Weather condition
-Humidity
-Icon representing the weather
-Experience dynamic visuals matching the weather conditions.
+---
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Weather Icons**: [Weather Icons](https://erikflowers.github.io/weather-icons/)
+- **API**: [OpenWeatherMap API](https://openweathermap.org/api) for fetching weather data
+- **Font Awesome**: For social media icons in the footer
+- **Responsive Design**: Custom CSS with media queries
+
+---
+
+## Setup Instructions
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Vijaykishore59/enhanced-weather-app.git
+   cd enhanced-weather-app

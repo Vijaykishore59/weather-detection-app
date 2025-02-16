@@ -30,6 +30,6 @@ The **Enhanced Weather App** is a modern, user-friendly web application that pro
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Vijaykishore59/enhanced-weather-app.git
+   git clone https://github.com/Vijaykishore59/weather-app-detection.git
    cd weather-detection-app
    

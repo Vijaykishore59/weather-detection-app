@@ -4,7 +4,7 @@ The **Enhanced Weather App** is a modern, user-friendly web application that pro
 
 ---
 ## Demo Screenhots
-![Screenshot 2025-07-04 211352](https://github.com/user-attachments/assets/47979d31-f67a-4199-a72c-218aacb06807)
+![Screenshot 2025-07-04 211352](https://github.com/user-attachments/assets/e2ac3787-0b71-438e-b264-1cbac9ce3f97)
 ![image](https://github.com/user-attachments/assets/9af3bd8b-425e-4979-96f5-a29f41238310)
 
 ## Features

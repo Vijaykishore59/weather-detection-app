@@ -3,6 +3,9 @@
 The **Enhanced Weather App** is a modern, user-friendly web application that provides real-time weather information, hourly forecasts, and additional weather-related details. It allows users to search for weather by city name or use their current location. The app is designed with a clean and responsive interface, making it easy to use on all devices.
 
 ---
+## Demo Screenhots
+![Screenshot 2025-07-04 211352](https://github.com/user-attachments/assets/47979d31-f67a-4199-a72c-218aacb06807)
+![image](https://github.com/user-attachments/assets/9af3bd8b-425e-4979-96f5-a29f41238310)
 
 ## Features
 
@@ -30,6 +33,6 @@ The **Enhanced Weather App** is a modern, user-friendly web application that pro
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Vijaykishore59/weather-app-detection.git
+   git clone https://github.com/Vijaykishore59/weather-detection-app.git
    cd weather-detection-app
    
